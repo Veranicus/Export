@@ -1,0 +1,204 @@
+#structure-component .container {
+    display: flex;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    flex-direction: column;
+}
+#structure-component md-card {
+    max-width: 50%;
+}
+#structure-component .logbox {
+    min-width: 400px;
+    padding: 10px;
+    margin: 8px;
+    width: 50%;
+    background-color: #fff;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.3);
+    font-family: "Open Sans", Helvetica, sans-serif;
+    border-radius: 2px;
+    display: inline-box;
+}
+#structure-component .pagetitle {
+    margin-left: 10px !important;
+    margin-bottom: 20px !important;
+    display: block !important;
+    font-size: 2em !important;
+    font-weight: bold !important;
+    color: rgba(0,0,0,0.87) !important;
+    width: auto !important;
+}
+#structure-component .flex-item {
+    /*flex: auto !important;*/
+    margin-bottom: 15px;
+}
+#structure-component .roles {
+    color: rgba(0,0,0,0.54);
+    padding-left: 20px;
+}
+@media only screen and (max-width: 959px) {
+    #structure-component .flex-item {
+        flex: auto !important;
+    }
+} 
+#structure-component .no-margin {
+    margin: 0;
+}
+#structure-component md-input-container, #structure-component .project-box {
+    width: 85%;
+    height: 50px;
+    display: block;
+    margin: 0 auto 15px;
+}
+#structure-component .project-box {
+    color: rgba(0,0,0,.38);
+    cursor: default;
+    position: relative;
+}
+#structure-component .project-box .project-list {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+}
+#structure-component .project-box .project-label {
+    color: #a9a9a9;
+    font-weight: normal;
+    width: 100%;
+    position: absolute;
+    padding-top: 1em;
+    pointer-events: none;
+    transform: translateY(-1.35em) scale(.75);
+    left: 0;
+}
+#structure-component .multi-input-line-table {
+    width: 85%;
+    margin: 0 auto 0;
+}
+#structure-component .flex-container md-input-container {
+    width: 100%;
+    height: 50px;
+    display: block;
+    margin: 0 auto 0 0;
+}
+#structure-component .password-wrapper {
+    position:relative;
+}
+#structure-component .password-wrapper input {
+    padding-right: 50px;
+}
+#structure-component .password-wrapper i {
+    position: absolute;
+    top: 50%;
+    height:1em;
+    right: 10px;
+    z-index: 999;
+    margin-top:-0.5em;
+    cursor: pointer;
+    pointer-events: all;
+}
+#structure-component .mat-input-wrapper {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+#structure-component .mat-input-table {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+}
+#structure-component .mat-input-underline {
+    position: absolute;
+    bottom: 0;
+    margin-top: 0;
+    border-top: 2px solid #ebebeb;
+/*    transform: translateY(2px);*/
+}
+#structure-component .mat-input-placeholder, #structure-component .password-wrapper i {
+    color: #a9a9a9;
+    font-weight: normal;
+}
+#structure-component .mat-input-placeholder.mat-focused {
+    color: #1d68a5;
+    font-weight: bold;
+    /*transform: translateX(-10px) translateY(-1.35em) scale(0.75);*/
+    /*width: 133.33333%;*/
+}
+#structure-component .mat-input-underline .mat-input-ripple {
+    background-color: #1d68a5;
+    transform: translateY(-1px);
+}
+#structure-component .mat-input-underline .mat-focused {
+    background-color: #1d68a5 !important;
+}
+#structure-component md-input-container:not(.disabled-input-container):hover .mat-input-underline .mat-input-ripple {
+    opacity: 1;
+    transform: scaleY(1) translateY(-1px);
+    background-color: #337AB7;
+}
+#structure-component .invalidInput.ng-invalid .mat-input-underline {
+  border-top-color: red !important;
+}
+#structure-component .invalidInput2 .mat-input-underline {
+    border-top-color: red !important;
+}
+#structure-component .mat-placeholder-required {
+    /*display: none;*/
+}
+#structure-component md-input-container mdinput[disabled] {
+    border-bottom-color: transparent !important;
+    color: rgba(0,0,0,0.38) !important;
+    background-image: linear-gradient(90deg,rgba(0,0,0,0.38) 0,rgba(0,0,0,0.38) 33%,transparent 0) !important;
+    background-position: bottom -1px left 0 !important;
+    background-size: 4px 1px !important;
+    background-repeat: repeat-x !important;
+}
+#structure-component .shh-input, #structure-component .product-spaces-input {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 10px;
+}
+#structure-component md-card-actions .inputButton {
+    display: inline-block;
+    margin: 2.5px;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    letter-spacing: normal !important;
+    width: auto !important;
+    min-width: fit-content !important;
+    min-height: 36px;
+    min-width: 88px;
+}
+/*-----------------------------------------------------------*/
+#structure-component .clearfix{
+    width: 85%;
+    display: block;
+    margin: 0 auto 15px;
+    padding: 0 10px;
+    border: none;
+    color: red;
+}
+#structure-component table .clearfix{
+    width: 100%;
+}
+#structure-component .disabled-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#structure-component .privacy-statement {
+    width: 85%;
+    display: block;
+    margin: 0 auto 15px;
+    padding: 0 15px;
+    border: none;
+}
