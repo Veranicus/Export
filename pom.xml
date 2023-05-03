@@ -44,7 +44,7 @@
         <dependency>
             <groupId>org.xhtmlrenderer</groupId>
             <artifactId>flying-saucer-pdf</artifactId>
-            <version>9.1.4</version>
+            <version>9.1.19</version>
         </dependency>
 			
 		<!-- ez-vcard -->	
